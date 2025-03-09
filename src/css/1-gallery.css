@@ -1,0 +1,33 @@
+@import "simplelightbox/dist/simple-lightbox.min.css";
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+
+.gallery{
+    max-width: 1129px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin: 24px auto;
+}
+
+.sl-overlay {
+    background-color: #2E2F42;
+    opacity: 0.8;
+}
+.sl-wrapper .sl-close {
+    color: #ffffff;
+}
+
+.sl-wrapper .sl-counter {
+    color: #ffffff;
+}
+.sl-wrapper .sl-navigation button {
+    color: #ffffff;
+}
